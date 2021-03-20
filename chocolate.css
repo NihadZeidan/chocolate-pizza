@@ -1,22 +1,23 @@
-* {
- /* background-color: rgb(207, 202, 202); */
- /* font-size: 20px; */
+body{
+    background-color: rgb(245, 239, 239);
+}
+
+header{
+    margin-top: 20px;
 }
 
 header img#logo {
-
-    float: left;
     margin: 2px;
-    display: block;
-   
+    height: 70px;
+    float: left;
 }
 
 header p:first-of-type {
     font-style:oblique;
     font-size: 0.3in;
-    padding: 0;
-    display: inline-block;
+    padding-top: 20px;
     margin: 0px;
+    line-height: 0%;
 }
 
 header p:nth-of-type(2){
@@ -24,47 +25,51 @@ header p:nth-of-type(2){
     display: inline-block;
 }
 
-body header nav ul li a {
-    padding: 0;
-    margin: 0;
-}
 
 div#first {
     display: inline-block;
     margin: 0%;
-    width: 60%;
-    padding-left: 100px;
+    width: 30%;
+    margin-left: 200px;
 }
 
 
 nav {
     float: right;
-    width: 25%;
+    width: 30%;
 }
 
 
 .list{
     list-style: none;
-    display:inline-block;
+float: left;
+padding-left: 2px;
+
 }
+
+ hr {
+     height: 15px;
+     width: 85%;
+     background-image: url("images/hr-img.png");
+     border: cornsilk;
+     clear: both;
+ }
 
 
 main h5{
     font-size: .4in;
-    width: 70%;
     margin: 0;
     padding: 0;
     display: inline-block;
     position: relative;
-    padding-left: 100px;
+    padding-left: 190px;
 }
 
 #printImg {
     float: right;
-    margin: 0;
+    margin-right: 200px;
     display: block;
-    position: relative;
-    padding-right: 100px;
+height: 10px;
 }
 
 #chocoimg{
@@ -77,33 +82,38 @@ main h5{
 }
 
 p.one {
-    padding-left: 100px;
-    padding-right: 100px ;
+    font-style: oblique;    
     text-align: left;
     margin-bottom: 0;
-}
-p.two{
-    padding-left: 100px;
-    padding-right: 100px ;
-    text-align: left;
-    margin-bottom: 0;
+    width: 60%;
+    font-size: 18px;
+    margin-left: 300px;
 }
 
-p.three {
-    padding-left: 100px;
-    padding-right: 100px ;
-    text-align: left;
+p.two{
+    font-style: oblique;
+     text-align: left;
     margin-bottom: 0;
+    width: 60%;
+    font-size: 18px;
+    margin-left: 300px;}
+
+p.three {
+    font-style: oblique;    margin-bottom: 0;
+    width: 60%;
+    font-size: 18px;
+    margin-left: 300px;
+    margin-bottom: 50px;
 }
 
  
 #allList {
     background: url("images/list-bg.png") no-repeat;
- /* position: relative; */
  width: 100%;
  display: inline-block;
  width: 60%;
  margin-left: 300px;
+ margin-bottom: 20px;
 }
 
 #firstList {
@@ -112,6 +122,7 @@ p.three {
     padding-left: 150px;
     list-style: none;
     text-align:left; 
+    line-height: 30px;
 }
 
 #secondList {
@@ -120,61 +131,52 @@ p.three {
     width:fit-content;
     padding-right: 150px;
     list-style: none;
-    text-align: left; }
+    line-height: 30px;
+        text-align: left;
+ }
 
 
-
-ul div {
-    /* background: url("images/list-bg.png") no-repeat; */
-    padding-left: 100px;
-    height:fit-content;
-    overflow:hidden;
+ div.venessa{
+    width: 80%;
+    margin-top: 20px;
 }
-    /* /* display: block; */
-    /* margin-left:auto ;
-    margin-right: auto;  */
-
-
-
-#checkboxes{ 
-   
-    list-style:none;
-    padding: 20px;
-    margin: 20px;
-}
-    /* background:transparent; */
-    /* background :url("images/list-bg.png") no-repeat; */
-
-
-
 
     img#vanessa {
-        display: inline-block;
+        float: left;
         margin: 0;
-        padding: 0;
-        padding-left: 220px;
+        padding: 5px;
+        height: 90px;
+        border-radius: 50%;
+        margin-left: 250px;
 
     }
 
-
+ 
 main p.venText{
-float:right;
-    display: block;
-    width: 50%;
-    padding-right: 450px;
-    margin: 0;
+    font-style: oblique;
+font-size: 20px;
+    display: inline-block;
+    width: 60%;
+    margin:0;
+}
+
+button {
+    float: right;
+    padding: 12px;
+    background-color: brown;
+    color: cornsilk;
 }
 
 
 
+footer {
+    margin-top: 100px;
+}
 footer img {
     display: block;
     margin-left: auto;
     margin-right: auto; 
 }
-
-
-
 footer p {
     padding: 0;
     text-align: center;
